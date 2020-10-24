@@ -1,0 +1,158 @@
+.heading{
+    text-align: center;
+    margin-top:5vh;
+    margin-bottom: 5vh;
+}
+
+
+.heading-img
+{
+    width:5vw;
+    height:10vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+
+.heading-text{
+    color:brown;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline;
+}
+
+.country
+{
+    display:inline-block;
+    width:35vw;
+    height:fit-content;
+    background-color: burlywood;
+    font-size: 3.5vh;
+    margin-right:0;
+    font-family: 'Source Code Pro', monospace;
+    line-height: 5vh;
+
+}
+
+.infected
+{
+    display:inline-block;
+    width:20vw;
+    height:fit-content;
+    font-size: 3.5vh;
+    background-color: yellow;
+    margin-right:0;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.recovered
+{
+    display: inline-block;
+    width:20vw;
+    height:fit-content;
+    font-size: 3.5vh;
+    background-color: rgb(74, 228, 74);
+    margin-right:0;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+
+.deaths
+{
+    display: inline-block;
+    width:20vw;
+    height:fit-content;
+    font-size:3.5vh;
+    background-color: red;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.heading-row,.data-row
+{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.buttons,.BasisOfSorting
+{
+    text-align: center;
+}
+
+.list-sort-heading
+{
+    margin-top:4vh;
+    margin-bottom: 4vh;
+    color:rgba(70, 69, 9, 0.774);
+    font-family: 'Source Code Pro', monospace;
+}
+
+.flag
+{
+    width:2vw;
+    height: 2vh;
+}
+
+.search-div
+{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.search-ip
+{
+    width:40vw;
+    height:7.5vh;
+    border-radius: 10px;
+    outline: none;
+    font-size: 3.5vh;
+    margin-bottom: 2vh;;
+}
+
+.search,.view-full
+{
+    border-radius: 7.5px;
+    outline: none;
+}
+
+.not-found
+{
+    margin-top:5vh;
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+}
+
+.world
+{
+    text-align: center;
+}
+
+
+.infected-world,.dead-world,.recovered-world
+{
+    display: inline-block;
+    width:15vw
+}
+
+.world-heading
+{
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-family: 'Trispace', sans-serif;
+    color:brown
+}
+
+.inf-world-count,.rec-world-count,.death-world-count
+{
+    margin-top: 3vh;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+body
+{
+    background-color: cyan;
+}

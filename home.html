@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./favicon.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7b12cfefed.js" crossorigin="anonymous"></script>
+
+
+    <title>Covid Tracker</title>
+    <link rel="stylesheet" href="./home.css">
+  </head>
+  <body>
+      <div class="heading">
+        <img src="./covid1.jpg" alt="" class='heading-img'>
+        <h1 class='heading-text'>Covid-19 Tracker</h1>
+        <img src="./covid2.png" alt="" class='heading-img'>
+      </div>
+      <div class="buttons">
+        <button type="button" class="btn btn-success update">Update List</button>
+        <button type="button" class="btn btn-primary infected-inc">Sort Inc.By Infected</button>
+        <button type="button" class="btn btn-primary infected-dec">Sort Dec.By Infected</button>
+        <button type="button" class="btn btn-primary recovered-inc">Sort Inc.By Recovered</button>
+        <button type="button" class="btn btn-primary recovered-dec">Sort Dec.By Recovered</button>
+        <button type="button" class="btn btn-primary death-inc">Sort Inc.By Deceased</button>
+        <button type="button" class="btn btn-primary death-dec">Sort Dec.By Deceased</button>
+      </div>
+
+
+    <div class="search-div">
+        <input type="text" class="search-ip" placeholder="Enter the Name of the Country to Search">
+        <br>
+        <button type="button" class="btn btn-success search btn-lg">Search</button>
+        <button type="button" class="btn btn-success full-view btn-lg">View Full List</button>
+    </div>
+
+    <div class="world">
+
+      <h3 class="world-heading">World Stats:</h3>
+        <!-- Infected Card -->
+        <div class="card text-white bg-warning mb-3 infected-world" style="max-width: 18rem;">
+          <div class="card-body suc">
+            <h5 class="card-title">Infected</h5>
+            <p class="card-text inf-world-count"></p>
+          </div>
+        </div>
+
+        <!-- Recovered Card -->
+        <div class="card text-white bg-success mb-3 recovered-world" style="max-width: 18rem;">
+          <div class="card-body suc">
+            <h5 class="card-title">Recovered</h5>
+            <p class="card-text rec-world-count"></p>
+          </div>
+        </div>
+
+        <!-- Death Card -->
+        <div class="card text-white bg-danger mb-3 dead-world" style="max-width: 18rem;">
+          <div class="card-body suc">
+            <h5 class="card-title">Deceased</h5>
+            <p class="card-text death-world-count"></p>
+          </div>
+        </div>
+
+    </div>
+
+      <div class="BasisOfSorting">
+        <h3 class='list-sort-heading'>The List is Sorted Based on Alphabetical Ordering of Country Names</h3>
+      </div>
+
+
+      <div class="heading-row">
+        <div class="country">Country</div>
+        <div class="infected">Infected</div>
+        <div class="recovered">Recovered</div>
+        <div class="deaths">Deceased</div>
+    </div>
+
+
+      <div class="main-container">
+         
+      </div>
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="./home.js"></script>
+  </body>
+  
+</html>

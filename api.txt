@@ -1,0 +1,3 @@
+api="https://disease.sh/v3/covid-19/countries"
+
+world_api="https://disease.sh/v3/covid-19/all"
